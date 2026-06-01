@@ -1,0 +1,95 @@
+Last login: Mon Jun  1 10:32:43 on console
+yaelahfelix@Ferdinands-MacBook-Air ~ % cd Documents/Development 
+yaelahfelix@Ferdinands-MacBook-Air Development % cd lab 
+yaelahfelix@Ferdinands-MacBook-Air lab % ls
+app			celengan		golang			new-porto
+bot.py			convert-zip-to-wp	hello_world		next
+bsi-laravel		flutter			my-app			portfolio3
+yaelahfelix@Ferdinands-MacBook-Air lab % cd flutter 
+yaelahfelix@Ferdinands-MacBook-Air flutter % git clone https://github.com/Yaelahfelix/nightdump_bsi
+Cloning into 'nightdump_bsi'...
+remote: Enumerating objects: 125, done.
+remote: Counting objects: 100% (125/125), done.
+remote: Compressing objects: 100% (87/87), done.
+remote: Total 125 (delta 14), reused 125 (delta 14), pack-reused 0 (from 0)
+Receiving objects: 100% (125/125), 139.31 KiB | 2.73 MiB/s, done.
+Resolving deltas: 100% (14/14), done.
+yaelahfelix@Ferdinands-MacBook-Air flutter % agy-ide .
+yaelahfelix@Ferdinands-MacBook-Air flutter % cd nightdump_bsi 
+yaelahfelix@Ferdinands-MacBook-Air nightdump_bsi % agy-ide .
+yaelahfelix@Ferdinands-MacBook-Air nightdump_bsi % flutter pub get
+Resolving dependencies... (1.0s)
+Downloading packages... 
++ async 2.13.1
++ boolean_selector 2.1.2
++ characters 1.4.1
++ clock 1.1.2
++ collection 1.19.1
++ fake_async 1.3.3
++ flutter 0.0.0 from sdk flutter
++ flutter_lints 4.0.0 (6.0.0 available)
++ flutter_test 0.0.0 from sdk flutter
++ leak_tracker 11.0.2
++ leak_tracker_flutter_testing 3.0.10
++ leak_tracker_testing 3.0.2
++ lints 4.0.0 (6.1.0 available)
++ matcher 0.12.19 (0.12.20 available)
++ material_color_utilities 0.13.0
++ meta 1.17.0 (1.18.2 available)
++ path 1.9.1
++ sky_engine 0.0.0 from sdk flutter
++ source_span 1.10.2
++ stack_trace 1.12.1
++ stream_channel 2.1.4
++ string_scanner 1.4.1
++ term_glyph 1.2.2
++ test_api 0.7.10 (0.7.12 available)
++ vector_math 2.2.0 (2.3.0 available)
++ vm_service 15.2.0
+Changed 26 dependencies!
+6 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+yaelahfelix@Ferdinands-MacBook-Air nightdump_bsi % agy-ide .      
+yaelahfelix@Ferdinands-MacBook-Air nightdump_bsi % agy-ide .
+yaelahfelix@Ferdinands-MacBook-Air nightdump_bsi % agy-ide .
+yaelahfelix@Ferdinands-MacBook-Air nightdump_bsi % cd ..
+yaelahfelix@Ferdinands-MacBook-Air flutter % ls
+belajar			klinik_app		modul_bsi_belajar	nightdump_bsi		simple_todo
+yaelahfelix@Ferdinands-MacBook-Air flutter % cd klinik_app 
+yaelahfelix@Ferdinands-MacBook-Air klinik_app % ls
+analysis_options.yaml	ios			linux			pubspec.yaml		web
+android			klinik_app.iml		macos			README.md		windows
+build			lib			pubspec.lock		test
+yaelahfelix@Ferdinands-MacBook-Air klinik_app % vi .gitignore
+
+*.ipr 
+*.iws 
+.idea/ 
+ 
+# The .vscode folder contains launch configuration and tasks you configure in 
+# VS Code which you may wish to be included in version control, so this line 
+# is commented out by default. 
+#.vscode/ 
+ 
+# Flutter/Dart/Pub related 
+**/doc/api/ 
+**/ios/Flutter/.last_build_id 
+.dart_tool/ 
+.flutter-plugins-dependencies 
+.pub-cache/ 
+.pub/ 
+/build/ 
+/coverage/ 
+ 
+# Symbolication related 
+app.*.symbols 
+ 
+# Obfuscation related 
+app.*.map.json 
+ 
+# Android Studio will place build artifacts here 
+/android/app/debug 
+/android/app/profile 
+/android/app/release
+-- VISUAL --                                                                                                 45 
+.env
